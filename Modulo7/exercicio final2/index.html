@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed de Rede Social</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="formulario-fixo">
+        <form id="formularioPostagem">
+            <input type="text" id="nomeUsuario" placeholder="Seu nome de usuário" required>
+            <input type="text" id="avatarUrl" placeholder="URL do seu avatar" required>
+            <textarea id="textoPostagem" placeholder="O que está acontecendo?" required></textarea>
+            <button type="submit">Postar</button>
+        </form>
+    </div>
+
+    <div id="feed">
+        <!-- As postagens serão adicionadas aqui dinamicamente -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

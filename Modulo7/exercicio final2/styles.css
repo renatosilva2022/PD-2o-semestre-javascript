@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f8fa;
+}
+
+.formulario-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#formularioPostagem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#formularioPostagem input,
+#formularioPostagem textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#formularioPostagem button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formularioPostagem button:hover {
+    background-color: #1991db;
+}
+
+#feed {
+    margin-top: 220px; /* Aumentado para acomodar o formulário maior */
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postagem {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postagem .cabecalho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.postagem .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.postagem .nome-usuario {
+    font-weight: bold;
+    color: #333;
+}
+
+.postagem .texto {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.postagem .imagem-gato {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.postagem .curtir {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #657786;
+}
+
+.postagem .curtir:hover {
+    color: #1da1f2;
+}
+
+.postagem .curtir span {
+    margin-left: 5px;
+}
