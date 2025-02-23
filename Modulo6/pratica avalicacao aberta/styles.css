@@ -1,0 +1,14 @@
+/* Estilo inicial dos itens da lista e parágrafos */
+li, p {
+    color: black;
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
