@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.adicionar-tarefa {
+    margin-bottom: 20px;
+}
+
+#novaTarefa {
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+}
+
+#adicionar {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+#adicionar:hover {
+    background-color: #218838;
+}
+
+#listaTarefas {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaTarefas li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#listaTarefas li.concluida {
+    background-color: #e8f5e9;
+    text-decoration: line-through;
+    color: #666;
+}
+
+#listaTarefas input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.botao-excluir {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botao-excluir:hover {
+    background-color: #c82333;
+}
